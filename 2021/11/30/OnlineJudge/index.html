@@ -204,16 +204,12 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h1 id="Online-Judge-搭建日志"><a href="#Online-Judge-搭建日志" class="headerlink" title="Online Judge 搭建日志"></a>Online Judge 搭建日志</h1><h2 id="0x00-序言"><a href="#0x00-序言" class="headerlink" title="0x00 序言"></a>0x00 序言</h2><p>今天是11.28 <del>(NOIP一周祭)</del> ，上午泡在机房，闲来无事，便想折腾折腾一直想弄的oj，其目的在于积累经验。<del>(身为oier怎么能没有自己的oj bushi)</del></p>
-<span id="more"></span>
-
+        <h1 id="Online-Judge-搭建日志"><a href="#Online-Judge-搭建日志" class="headerlink" title="Online Judge 搭建日志"></a>Online Judge 搭建日志</h1><h2 id="0x00-序言"><a href="#0x00-序言" class="headerlink" title="0x00 序言"></a>0x00 序言</h2><p>今天是11.28 <del>(NOIP一周祭)</del> ，上午泡在机房，闲来无事，便想折腾折腾一直想弄的oj，其目的在于积累经验。<del>(身为oier怎么能没有自己的oj bushi)</del><br><span id="more"></span></p>
 <h2 id="0x01-系统配置-1h"><a href="#0x01-系统配置-1h" class="headerlink" title="0x01 系统配置(1h)"></a>0x01 系统配置(1h)</h2><p>本来想在自己电脑虚拟机上搭建，不过我突然想到可以用机房的电脑搞(嘿嘿嘿~)。<br>虚拟机版本：VMware Workstation 16<br>系统版本：Ubuntu Sever 20.04.3<br>对于系统的安装其实没什么好说 <del>(挺无脑的)</del>，其中要注意的问题是：换国内源。(否则会安装非常慢)<br>我刚开始换了tuna的源，但是出现了不可知的错误(*2，待深究)。。。<br>好在换aliyun后就好了，无伤大雅。</p>
-<h2 id="0x02-OJ安装-2h-inf"><a href="#0x02-OJ安装-2h-inf" class="headerlink" title="0x02 OJ安装(2h~inf)"></a>0x02 OJ安装(2h~inf)</h2><p>在一切准备就绪之后，就可以开始搭建oj了。我选择的是大名鼎鼎(?)的<a target="_blank" rel="noopener" href="https://github.com/zhblue/hustoj">HUSTOJ(GitHub)</a>，其搭建过程极其简单(不过构建时间略长)。。<br>只需输入两行代码就可~(Ubuntu 20.04)</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">wget http://dl.hustoj.com/install-ubuntu20.04.sh</span><br><span class="line">sudo bash install-ubuntu20.04.sh</span><br></pre></td></tr></table></figure>
-
+<h2 id="0x02-OJ安装-2h-inf"><a href="#0x02-OJ安装-2h-inf" class="headerlink" title="0x02 OJ安装(2h~inf)"></a>0x02 OJ安装(2h~inf)</h2><p>在一切准备就绪之后，就可以开始搭建oj了。我选择的是大名鼎鼎(?)的<a target="_blank" rel="noopener" href="https://github.com/zhblue/hustoj">HUSTOJ(GitHub)</a>，其搭建过程极其简单(不过构建时间略长)。。<br>只需输入两行代码就可~(Ubuntu 20.04)<br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">wget http://dl.hustoj.com/install-ubuntu20.04.sh</span><br><span class="line">sudo bash install-ubuntu20.04.sh</span><br></pre></td></tr></table></figure></p>
 <h2 id="0x03-OJ配置"><a href="#0x03-OJ配置" class="headerlink" title="0x03 OJ配置"></a>0x03 OJ配置</h2><p>安装完成后，提示需要在服务器本机上注册root账号，但安装的ubuntu是命令行版本的，这。<br>经过求助度娘，找到了不少应该可行的方法，如：xserver、安装桌面、VNC。<br>不过我发现设置管理员其实并不用这么麻烦。。<br>只需要简单的mysql的芝士，登录到mysql的jol库，添加相应的user为administrator就好了~<br>能体验一把admin的感觉了哈哈<br>(其他功能，挖坑)</p>
 <h2 id="0x04-内网穿透"><a href="#0x04-内网穿透" class="headerlink" title="0x04 内网穿透"></a>0x04 内网穿透</h2><p>oj在局域网跑多没意思哇，可是又没有公网ip，只好内网穿透了。(挖坑)</p>
-<p><img src="https://cdn.luogu.com.cn/upload/image_hosting/0zdz83la.png"></p>
+<p><img src="https://cdn.luogu.com.cn/upload/image_hosting/0zdz83la.png" alt></p>
 <h2 id="0x05-总结-amp-杂言"><a href="#0x05-总结-amp-杂言" class="headerlink" title="0x05 总结&amp;杂言"></a>0x05 总结&amp;杂言</h2><p>搭建一个属于我的oj，这算是我初三就想完成的一个小项目(玩具)了。<br>忙里偷闲，今天在这里能完成(虽然很简单)，我很开心。<br>虽然NOIP考的很烂，但我无悔入OI，无悔来SY。<br>(挖坑自写oj~)<br>2021.11.30 星期二 晚八点于机房  </p>
 <p>upd at 12.23:服务器重启后无了。。</p>
 
@@ -310,7 +306,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-count">6</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
